@@ -1,0 +1,14 @@
+allowBuilds:
+  '@parcel/watcher': true
+  '@servicenow/aiux-components-condition-builder': true
+  '@servicenow/aiux-document-viewer': true
+  '@swc/core': true
+  core-js: true
+  isolated-vm: true
+  libxmljs2: true
+  sn-http-request: true
+  core-js-pure: false
+  esbuild: false
+  onnxruntime-node: false
+  protobufjs: false
+  sharp: false

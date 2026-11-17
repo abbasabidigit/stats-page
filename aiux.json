@@ -1,0 +1,17 @@
+{
+  "name": "stats-page",
+  "projectId": "x_alsoi_stats_page_stats_page",
+  "basename": "stats-page",
+  "srcDir": "src/lux",
+  "landing": "/stats",
+  "experienceAcls": [
+    {"decision": "allow_if", "roles": ["admin"]}
+  ],
+  "createAnalyticsApp": true,
+  "development": {
+    "token": ""
+  },
+  "build": {
+    "exclude": ["**/*.test.js", "**/test/**"]
+  }
+}

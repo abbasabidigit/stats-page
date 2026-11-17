@@ -1,0 +1,15 @@
+{
+  "scope": "x_alsoi_stats_page",
+  "scopeId": "6755ad6ce19d49f7b8a01be69c7fcf0a",
+  "name": "stats-page",
+  "metadataDir": "src/plugin-xmls",
+  "appOutputDir": "dist-metadata/app",
+  "packageSourceCodeOnInstance": true,
+  "staticContent": {
+    "assets": {
+      "./public/**": {
+        "publicPath": "[$config.aiux.basename]/public"
+      }
+    }
+  }
+}
